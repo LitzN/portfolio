@@ -1,0 +1,166 @@
+/*  GENERAL */
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200;300;400;800&display=swap');
+
+body{
+    min-height:100vh;
+}
+
+.dark-purple{
+    background-color:#26003c ;
+}
+
+.dark-purple-text{
+    color:#26003c;
+}
+
+.med-purple{
+    background-color:#510080 ;
+}
+
+.purple{
+    background-color: #3A015C;
+}
+
+.light-purple{
+    background-color: #e6ccff;
+}
+
+.beige{
+    background-color: #F2C9C4;
+}
+
+.beige-text{
+    color:#F2C9C4;
+}
+
+.theme-font{
+    font-family:'MuseoModerno', cursive;
+}
+/*  NAV */
+.logo{
+    height: 3.5rem;
+    margin: 0.5rem;
+    padding-left: 1rem;
+}
+
+/*  ABOUT  SECT  */
+
+#about{
+    border-radius: 25px;
+}
+.about-img{
+    height:42vh;
+    border-radius: 25px;
+}
+
+.image-about{
+    background-image: url(./images/code.png);
+    background-size:cover;
+}
+
+.skills{
+    list-style-type: none;}
+
+
+.progress{
+    margin-top:30%;
+}
+
+/*  PROJECTS  */
+.site-img{
+    background-image:url(images/desk.jpg);
+    min-height:15rem;
+    background-size:cover;
+    font-size: 2rem;
+}
+
+.henna-sh{
+    background-image:url(images/henna-sh.png);
+}
+
+.keto-img{
+    background-image:url(images/keto-sh.png);
+}
+
+.img-links{
+    color:white;
+    float: right;
+    padding: 0.5rem;
+}
+
+.site-name{
+    font-size:1.5rem;
+    font-weight:700;
+}
+
+.lang-bar{
+    border-radius: 25px;
+}
+.lang-logos{
+    width:3rem;
+    height:3rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icons{
+    font-size:4rem;
+}
+
+.heading{
+    font-size:2.5rem;
+}
+
+/*  IMAGES  */
+.python{
+    background-image:url(images/python.png);
+}
+
+.flask{
+    background-image:url(images/flask.png);
+}
+
+.javascript{
+    background-image:url(images/javascript.png);
+}
+
+.sql{
+    background-image:url(images/mysql.png);
+}
+
+.django{
+    background-image:url(images/django.webp);
+}
+
+.image-contact{
+    background: url(./images/contact.png) no-repeat center center;
+    background-size: cover;
+    min-height:12rem;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .about-img{
+        height: 35vh;
+    }
+
+    .progress{
+        margin-top:0;
+        margin-bottom:20%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .about-img{
+        height:40vh;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #about{
+    }
+}
