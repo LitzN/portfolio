@@ -63,7 +63,7 @@ body{
 
 
 .progress{
-    margin-top:30%;
+    margin-top:15%;
 }
 
 /*  PROJECTS  */
@@ -155,12 +155,21 @@ body{
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .about-img{
-        height:40vh;
+        height:30vh;
     }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     #about{
+        min-height:50vh;
     }
+
+}
+
+@media only screen and (min-width: 1000px) {
+    .about-img{
+        height:40vh;
+    }
+
 }
