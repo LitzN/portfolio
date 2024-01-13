@@ -153,6 +153,10 @@ body{
         margin-top:0;
         margin-bottom:20%;
     }
+
+    .site-img{
+        min-height: 0;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
