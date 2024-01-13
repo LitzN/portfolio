@@ -36,6 +36,11 @@ body{
 .theme-font{
     font-family:'MuseoModerno', cursive;
 }
+
+.bckg-1{
+    background-image:url(/images/bckg1.png);
+    background-size:cover;
+}
 /*  NAV */
 .logo{
     height: 3.5rem;
@@ -50,7 +55,10 @@ body{
 }
 .about-img{
     height:42vh;
-    border-radius: 25px;
+}
+
+.description{
+    height:55vh;
 }
 
 .skills{
